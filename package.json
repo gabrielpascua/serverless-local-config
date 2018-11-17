@@ -4,7 +4,8 @@
   "description": "Local Serverless configuration",
   "main": "handler.js",
   "scripts": {
-    "dev" : "serverless offline start"
+    "dev" : "serverless offline start",
+    "package": "serverless package"
   },
   "repository": {
     "type": "git",

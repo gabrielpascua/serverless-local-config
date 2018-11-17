@@ -11,3 +11,6 @@ Local debugging configuration for Serverless and AWS Lambda function
 
 ## Debugging the Project in VS Code
 * Debug by selecting `serverless offline start`
+
+## Generating zip file
+* `npm run package`
