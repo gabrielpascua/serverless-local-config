@@ -1,0 +1,28 @@
+{
+  "name": "serverless-local-config",
+  "version": "1.0.0",
+  "description": "Local Serverless configuration",
+  "main": "handler.js",
+  "scripts": {
+    "dev" : "serverless offline start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielpascua/serverless-local-config.git"
+  },
+  "keywords": [
+    "serverless",
+    "aws",
+    "vscode"
+  ],
+  "author": "Gabriel Pascua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielpascua/serverless-local-config/issues"
+  },
+  "homepage": "https://github.com/gabrielpascua/serverless-local-config#readme",
+  "devDependencies": {
+    "serverless": "^1.33.1",
+    "serverless-offline": "^3.31.3"
+  }
+}
